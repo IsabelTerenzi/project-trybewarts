@@ -40,8 +40,8 @@ main {
   align-self: center;
   justify-content: space-between;
   padding: 20px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+  'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .trybewarts-login button {
@@ -112,7 +112,7 @@ main {
 }
 
 #label-rate {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #submit-btn {
@@ -125,12 +125,12 @@ main {
 }
 
 #label-infos {
-    margin-top: 30px;
-    margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 #textarea {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #footer {
