@@ -1,23 +1,22 @@
-let botaoEnviar = document.querySelector(".entrarbtn");
-botaoEnviar.addEventListener("click", logIn);
-
-let botaoForm = document.querySelector("#submit-btn");
-
+const botaoEnviar = document.querySelector('.entrarbtn');
 
 function logIn() {
-    let email = document.querySelector(".email").value;
-    let senha = document.querySelector(".senha").value;
-    if(email === "tryber@teste.com" && senha ==="123456"){
-    alert("Olá, Tryber!");
-    }else{
-        alert("Email ou senha inválidos.");
-    }
+  const email = document.querySelector('.email').value;
+  const senha = document.querySelector('.senha').value;
+  if (email === 'tryber@teste.com' && senha === '123456') {
+    alert('Olá, Tryber!');
+  } else {
+    alert('Email ou senha inválidos.');
+  }
 }
 
-function enviarForm() {
-    let checkBox = document.querySelector("#agreement");
-    if(checkBox.checked){
-        botaoForm.enabled
-}
-}
+botaoEnviar.addEventListener('click', logIn);
 
+const submit = document.querySelector('#submit-btn');
+submit.setAttribute('disabled', true);
+const check = document.querySelector('#agreement');
+check.addEventListener('change', () => {
+  if (check.checked) {
+    submit.removeAttribute('disabled');
+  }
+});
