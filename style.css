@@ -12,7 +12,7 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .header {
@@ -30,26 +30,37 @@ main {
   display: flex;
   padding: 20px;
   gap: 5px;
-  border-radius: 75%;
-  justify-content: space-between;
+}
+
+.trybewarts-login input {
+  border: 1px solid #555;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 35%;
+}
+
+.trybewarts-login button {
+  display: flex;
+  background-color: rgb(18, 8, 110);
+  padding: 15px;
+  color: white;
+  flex-grow: 1;
+  border: none;
+  border-radius: 8px;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
 }
 
 #evaluation-form h3 {
   display: flex;
-  font-size: x-large;
+  font-size: xx-large;
   align-self: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 15px;
   font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande,
     Lucida Sans Unicode, Geneva, Verdana, sans-serif;
-}
-
-.trybewarts-login button {
-  background-color: rgb(18, 8, 110);
-  color: white;
-  border-radius: 10%;
-  width: 100px;
-  flex-grow: 2;
 }
 
 #trybewarts-header-title {
@@ -75,12 +86,33 @@ main {
   display: flex;
   gap: 10px;
   padding: 10px;
+  justify-content: center;
+}
+
+.nome-sobrenome input {
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.email-casa input {
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.email-casa select {
+  background-color: #f1f1f1;
+  width: 20%;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 .email-casa {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   padding: 10px;
+  justify-content: center;
 }
 
 .familia-conteudo {
@@ -101,27 +133,44 @@ main {
   padding: 10px;
   gap: 10px;
   flex-direction: column;
-  justify-content: space-evenly;
 }
 
 .avaliaTrybe {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 10px;
+  align-items: center;
 }
 
 #label-rate {
   margin-bottom: 20px;
 }
 
+#label-family {
+  margin-bottom: 10px;
+}
+
+#label-content {
+  margin-bottom: 10px;
+}
+.caixadetexto textarea {
+  padding:10px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
 #submit-btn {
   display: flex;
   color: white;
   background-color: rgb(18, 8, 110);
-  flex-grow: 1;
-  text-align: center;
   margin-top: 20px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 10px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #label-infos {
@@ -137,9 +186,9 @@ main {
   text-align: center;
   background-color: rgb(50, 167, 145);
   color: white;
-  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   padding: 15px;
+  margin-top: 30px;
 }
