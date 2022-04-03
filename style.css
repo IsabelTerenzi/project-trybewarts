@@ -33,7 +33,7 @@ main {
 }
 
 .trybewarts-login input {
-  border: 1px solid #555;
+  border: 1px solid rgb(85, 85, 85);
   padding: 15px;
   box-sizing: border-box;
   border-radius: 8px;
@@ -101,7 +101,7 @@ main {
 }
 
 .email-casa select {
-  background-color: #f1f1f1;
+  background-color: rgb(240, 240, 240);
   width: 20%;
   padding: 10px;
   border-radius: 8px;
@@ -154,8 +154,9 @@ main {
 #label-content {
   margin-bottom: 10px;
 }
+
 .caixadetexto textarea {
-  padding:10px;
+  padding: 10px;
   margin-top: 10px;
   border-radius: 6px;
 }
